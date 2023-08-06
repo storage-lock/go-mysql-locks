@@ -1,4 +1,4 @@
-package locks
+package mysql_locks
 
 import (
 	"context"
