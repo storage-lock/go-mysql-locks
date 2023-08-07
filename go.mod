@@ -3,6 +3,13 @@ module github.com/storage-lock/go-mysql-locks
 go 1.19
 
 require (
+	github.com/storage-lock/go-mysql-storage v0.0.2-0.20230807012248-345a1e786e69
+	github.com/storage-lock/go-storage v0.0.1
+	github.com/storage-lock/go-storage-lock v0.0.1
+	github.com/storage-lock/go-storage-lock-factory v0.0.2-0.20230807025544-c7ca6c52798a
+)
+
+require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/go-sql-driver/mysql v1.7.1 // indirect
 	github.com/golang-infrastructure/go-goroutine-id v0.0.0-20230331174358-98b48a64077b // indirect
@@ -12,11 +19,7 @@ require (
 	github.com/google/uuid v1.3.0 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/storage-lock/go-events v0.0.1 // indirect
-	github.com/storage-lock/go-mysql-storage v0.0.2-0.20230807012248-345a1e786e69 // indirect
-	github.com/storage-lock/go-storage v0.0.1 // indirect
 	github.com/storage-lock/go-storage-events v0.0.1 // indirect
-	github.com/storage-lock/go-storage-lock v0.0.1 // indirect
-	github.com/storage-lock/go-storage-lock-factory v0.0.1 // indirect
 	github.com/storage-lock/go-utils v0.0.2 // indirect
 	github.com/stretchr/testify v1.8.4 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
