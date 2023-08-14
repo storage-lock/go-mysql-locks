@@ -1,0 +1,22 @@
+name: Go package
+
+on: [ push ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Go
+        uses: actions/setup-go@v4
+        with:
+          go-version: '1.19'
+
+      - name: Build
+        run: go build -v ./...
+
+      - name: Test
+        # 如果是锁的实现的话，要进行锁的各种单元测试，运行时长是可能超过10分钟的，所以这里专门指定不超时
+        run: go test -v -timeout 0 ./...
