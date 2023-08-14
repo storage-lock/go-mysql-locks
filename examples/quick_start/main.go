@@ -23,7 +23,7 @@ func main() {
 	lockId := "must-serial-operation-resource-foo"
 
 	// 第一步创建一把分布式锁
-	lock, err := mysql_locks.NewMySQLStorageLock(context.Background(), lockId, dsn)
+	lock, err := mysql_locks.NewLock(context.Background(), lockId, dsn)
 	if err != nil {
 		fmt.Printf("[ %s ] Create Lock Failed: %v\n", time.Now().Format("2006-01-02 15:04:05"), err)
 		return
