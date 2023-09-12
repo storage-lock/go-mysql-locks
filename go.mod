@@ -3,7 +3,7 @@ module github.com/storage-lock/go-mysql-locks
 go 1.19
 
 require (
-	github.com/storage-lock/go-mysql-storage v0.0.3-0.20230911232611-3e6c8a74ca4a
+	github.com/storage-lock/go-mysql-storage v0.0.3-0.20230912010101-dbf613c3f527
 	github.com/storage-lock/go-storage-lock v0.0.3
 	github.com/storage-lock/go-storage-lock-factory v0.0.2
 	github.com/storage-lock/go-storage-lock-test-helper v0.0.0-20230903094413-294180fc1228

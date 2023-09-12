@@ -21,6 +21,8 @@ github.com/storage-lock/go-events v0.0.3 h1:QuNbaREe5m1WYC0meKs7SRJ5lY11a18jCJJS
 github.com/storage-lock/go-events v0.0.3/go.mod h1:DKwPgfuq8T8CyPLipH+0XHsNt8hEN4g9krUGfosU2oY=
 github.com/storage-lock/go-mysql-storage v0.0.3-0.20230911232611-3e6c8a74ca4a h1:6wVoL+FhnkSGujOUFDVxh5TsCvKRbsGqtQYHxM8clVo=
 github.com/storage-lock/go-mysql-storage v0.0.3-0.20230911232611-3e6c8a74ca4a/go.mod h1:/oOSX2GDb2MDgzeCqIEUtbBOzWPjJJxcgvaHzOy9TVs=
+github.com/storage-lock/go-mysql-storage v0.0.3-0.20230912010101-dbf613c3f527 h1:Rm8E6b6ldu5tKP5+639dIN+7yJOOFpTkz6y3ZYOx5YY=
+github.com/storage-lock/go-mysql-storage v0.0.3-0.20230912010101-dbf613c3f527/go.mod h1:/oOSX2GDb2MDgzeCqIEUtbBOzWPjJJxcgvaHzOy9TVs=
 github.com/storage-lock/go-sql-based-storage v0.0.0-20230903181730-3e91a672a521 h1:xZQTwQh9F7zKMLPIsHn7mZFSPqpj1OkrGrBVTLKV2c0=
 github.com/storage-lock/go-sql-based-storage v0.0.0-20230903181730-3e91a672a521/go.mod h1:4ixNpjEQ9Aj4E9GExfopf3vw14oqXRSuFSduq7QRgF4=
 github.com/storage-lock/go-storage v0.0.2 h1:N5glUlrr1bbJ8ixYsPmOv+TuhIOObX/65+hrNMPWFDc=
